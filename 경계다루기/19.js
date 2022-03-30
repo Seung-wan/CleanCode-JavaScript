@@ -16,6 +16,7 @@
 function someFunc(someArg1, someArg2, someArg3, someArg4) {}
 
 function getFunc(someArg1, someArg3) {
+  // someFunc 함수에서 모든 매개변수를 사용 할 필요는 없는 경우에
   someFunc(someArg1, undefined, someArg3);
 }
 // 함수의 매개변수는 2개를 넘지 않는것이 좋다. 2개 이하여야 의미적으로 시작과 끝 개념으로 이해하기가 좋다
