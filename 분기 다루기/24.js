@@ -1,5 +1,7 @@
 /**
  * else if 피하기
+ * else if문을 파이프 라인처럼 흐르는게 아니다, else처리 후에 if처리를 하는 것
+ * 많이 늘어질 경우 switch 고려
  */
 
 const x = 1;
